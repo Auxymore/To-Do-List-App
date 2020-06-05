@@ -1,12 +1,11 @@
 import React from "react";
-import HighlightIcon from "@material-ui/icons/Highlight";
-
+import HourglassEmptyIcon from '@material-ui/icons/HourglassEmpty';
 function Header() {
   return (
     <header>
       <h1>
-        <HighlightIcon />
-        Keeper
+        <HourglassEmptyIcon />
+        iThink
       </h1>
     </header>
   );

@@ -3,9 +3,12 @@
   margin: 0;
   box-sizing: border-box;
 }
-html {
+
+html, body{
   font-family: "Montserrat", sans-serif;
+  height: 100%;
 }
+
 body {
   background: #eee;
   background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
@@ -18,23 +21,21 @@ header {
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
-
 header h1 {
   color: #fff;
   font-family: "McLaren", cursive;
   font-weight: 200;
 }
 
-footer {
-  position: absolute;
-  text-align: center;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
+.container {
+  display: flex;
+  flex-direction: column;
 }
 
-footer p {
-  color: #ccc;
+.note-section {
+  display: flex;
+  justify-content: center;
+
 }
 .note {
   background: #fff;
@@ -48,14 +49,21 @@ footer p {
 .note h1 {
   font-size: 1.1em;
   margin-bottom: 6px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
-.note p {
-  font-size: 1.1em;
+.content {
+  font-size: 1em;
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
 }
-
+.current-date {
+  position: relative;
+  top: 2.1em;
+  font-style: italic;
+  font-size: 0.7em;
+}
 .note button {
   position: relative;
   float: right;
@@ -100,4 +108,14 @@ form.create-note button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  flex-shrink: initial;
+}
+footer p {
+  color: #ccc;
 }
