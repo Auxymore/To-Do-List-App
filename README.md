@@ -8,6 +8,7 @@ To be added
 
 ## Tech Stack:
 - React
+- Material UI
 
 ## Contributors:
 Guillaume Acho
