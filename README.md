@@ -1,6 +1,6 @@
 # To Do List 
 
-To be added
+iThink is a tool that makes collating ideas/notes. Nice support for brainstorming.
 
 ## Live Link:
 
@@ -15,7 +15,10 @@ Guillaume Acho
 Reach out if you would like to contribute to this project
 
 ## Future ideas:
-- Add a server 
+- Add images
+- Create link between ideas/notes
+- Arrange by sub group
+- Edit or organize ideas/notes
 
 #
 #
