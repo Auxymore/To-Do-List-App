@@ -4,7 +4,7 @@ iThink is a tool that makes collating ideas/notes. Nice support for brainstormin
 
 ## Live Link:
 
-To be added
+https://ithinkapp.herokuapp.com/
 
 ## Tech Stack:
 - React
